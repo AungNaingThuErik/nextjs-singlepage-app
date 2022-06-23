@@ -19,7 +19,9 @@
     justify-content: center;
     position: relative;
   }
-
+  .cardMobile{
+    display: none;
+  }
   .circle {
     width: 100vh;
     height: 100vh;
@@ -42,7 +44,7 @@
   
   .title {
     color: white;
-    font-size: calc( (55px /1.5 ) + (((55/3)/19.2) * 1vw));
+    font-size: calc(20px + 2vw);
     margin: 0;
     text-transform: uppercase;
     margin-bottom: 1vw;
@@ -50,7 +52,7 @@
   
   .desc {
     color: white;
-    font-size: calc( (25px / 1.1) + (((25/11)/19.2) * 1vw));
+    font-size: calc(15px + 0.5vw);
     margin: 0;
     margin-bottom: 1vw;
   }
@@ -82,21 +84,26 @@
     } 
   /* All Mobiles */
   @media only screen and (max-width: 767px){ 
-    .card {
-        left: 0;
-        right: 0;
-        margin: 0 auto;
+    .container {
+        height: calc(70vh - 50px);
+    }
+        .card {
+       display: none;
+      }
+       .button {
+        padding: 15px;
+      }
+      .cardMobile{
+        display: block;
         padding: 50px;
         align-items: center;
-      text-align: center;
-      }
+        text-align: center;
+        justify-content: center;
+      }   
     }
-    .button {
-        padding: 15px;
-    }
+   
   @media screen and (max-width: 480px) {
 
-  
     .circle1 {
       right: -50vh;
       bottom: -50vh;
