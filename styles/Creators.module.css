@@ -1,0 +1,23 @@
+.container{
+  background-color: black;
+}
+.title{
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: calc(18px + 2vw);
+  margin: 0;
+  padding: 1.5vw 0;
+}
+.creatorContainer{
+  display: flex;
+  position: relative;
+}
+.creatorCard{
+  flex: 1;
+  display: block;
+  color: relative;
+}
+.creatorCardMobile{
+    display: none;
+  }
