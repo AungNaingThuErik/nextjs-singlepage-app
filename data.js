@@ -8,7 +8,7 @@ export const data = [
     },
     {
       id: 2,
-      name: "development",
+      name: "Adam Neely",
       title: "Development",
       desc: "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
       photo: "guitarist.jpg",
@@ -16,11 +16,25 @@ export const data = [
     },
     {
       id: 3,
-      name: "production",
+      name: "Adam Neely",
       title: "Production",
       desc: "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
-      photo: "guitarist.jpeg",
+      photo: "guitarist.jpg",
     },
+    {
+        id: 4,
+        name: "Adam Neely",
+        title: "Creator",
+        desc: "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
+        photo: "guitarist.jpg",
+      },
+      {
+        id: 5,
+        name: "Adam Neely",
+        title: "Creator",
+        desc: "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
+        photo: "guitarist.jpg",
+      },
   ];
   
   export const users = [

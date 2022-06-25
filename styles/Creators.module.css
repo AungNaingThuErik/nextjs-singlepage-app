@@ -1,6 +1,8 @@
 .container{
+  padding: calc(5vw - 20px);
   background-color: black;
 }
+
 .title{
   color: white;
   text-transform: uppercase;
@@ -9,15 +11,47 @@
   margin: 0;
   padding: 1.5vw 0;
 }
+
 .creatorContainer{
   display: flex;
   position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .creatorCard{
-  flex: 1;
-  display: block;
-  color: relative;
+  width: calc(100% / 3);
+
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
 }
+
+.creatorName{
+  color: white;
+}
+
 .creatorCardMobile{
     display: none;
+}
+
+  /* All Tablets */
+  @media only screen and (max-width: 990px){ 
+    .creatorCard{
+      width: calc(100% / 2);
+    
+    } 
+  }
+  /* All Mobiles */
+  @media only screen and (max-width: 767px){ 
+    .creatorContainer{
+      display: none;
+    }
+    .creatorCardMobile{
+      display: block;
+    }
   }
