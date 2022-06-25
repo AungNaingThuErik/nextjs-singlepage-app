@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Intro from '../components/Intro'
 import Creators from '../components/Creators'
-import styles from '../styles/Home.module.css'
 import { data } from '../data'
 
 export default function Home({creators}) {

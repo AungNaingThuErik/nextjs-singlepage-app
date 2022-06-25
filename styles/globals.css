@@ -14,3 +14,23 @@ a {
 * {
   box-sizing: border-box;
 }
+.eWjCzc:hover:enabled, .eWjCzc:focus:enabled {
+  background-color: #E47011 !important;
+}
+.krmNah {
+  box-shadow: 0 0 1px 3px #E47011 !important;
+  background-color: #E47011 !important;
+}
+.krmNah:hover, .krmNah:focus {
+  cursor: pointer;
+  box-shadow: 0 0 1px 3px #E47011 !important;
+}
+
+.jhmYzC {
+  background-color: rgb(202, 202, 202) !important;
+  box-shadow: 0 0 1px 2px rgb(202, 202, 202) !important;
+
+}
+.jhmYzC:hover, .jhmYzC:focus {
+  box-shadow: 0 0 1px 3px #E47011 !important;
+}

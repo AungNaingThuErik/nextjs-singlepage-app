@@ -1,5 +1,6 @@
 import styles from "../styles/Creators.module.css";
 import Image from "next/image";
+import Carousel from "react-elastic-carousel";
 
 const Creators = ({creators}) => {
     return(
@@ -23,7 +24,23 @@ const Creators = ({creators}) => {
                 ))}
             </div>
             <div className={styles.creatorCardMobile}>
-
+                <div className="carousel-wrapper"> 
+                    <Carousel>
+                        {creators.map((creator) => (
+                            <div key={creator.id} className={styles.creatorCard}>
+                                <Image
+                                    src={`/img/${creator.photo}`}
+                                    width="100%"
+                                    height="100%"
+                                    layout="responsive"
+                                    objectFit="cover"
+                                    alt="Musical Talent"
+                                /> 
+                                <h2 className={styles.creatorName}>{creator.name}</h2>
+                            </div>
+                        ))}
+                    </Carousel>
+                </div>
             </div>
         </div>
     )
