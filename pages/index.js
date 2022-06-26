@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Intro from '../components/Intro'
 import Creators from '../components/Creators'
+import Artists from '../components/Artists'
 import { data } from '../data'
 
 export default function Home({creators}) {
@@ -14,6 +15,7 @@ export default function Home({creators}) {
       </Head>
       <Intro/>
       <Creators creators={creators}/>
+      <Artists/>
     </div>
   )
 }

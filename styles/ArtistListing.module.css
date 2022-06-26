@@ -1,0 +1,47 @@
+  .container {
+    padding: calc(5vw - 20px);
+  }
+  
+  .namesContainer{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .namesListing{
+    width: calc(100% / 5);
+    padding: 15px 0;
+  }
+  
+    .artistName{
+        margin: 0;
+    }
+    .artistName:hover{
+        color: #E47011;
+    }
+    
+  .seperator {
+    width: 100%;
+  }
+  
+  .initial{
+    color: #E47011;
+    font-size: calc(15px + 1vw);
+  }
+
+  .namesEmpty{
+      display: none;
+  }
+  /* All Tablets */
+  @media only screen and (max-width: 990px){ 
+        .namesListing{
+            width: calc(100% / 3);
+        }
+    } 
+  /* All Mobiles */
+  @media only screen and (max-width: 767px){ 
+        .namesListing{
+            width: calc(100% / 2);
+        }
+    }
