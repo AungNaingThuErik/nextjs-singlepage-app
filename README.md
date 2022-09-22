@@ -6,7 +6,6 @@ First, install a package manager, such as npm.
 ```bash
 npm install 
 ```
-npm install
 Secondly, run the development server:
 
 ```bash
