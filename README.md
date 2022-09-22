@@ -13,5 +13,5 @@ Secondly, run the development server:
 npm run dev
 ```
 ## Deploy on AWS Amplify
-Open [https://main.d1jl9nok84oi8s.amplifyapp.com/](SweeLee) with your browser to see the result.
+Open [SweeLee](https://main.d1jl9nok84oi8s.amplifyapp.com/) with your browser to see the result.
 
